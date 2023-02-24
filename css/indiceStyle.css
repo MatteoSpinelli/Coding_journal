@@ -1,0 +1,97 @@
+.article {
+  flex-grow: 0;
+  max-width: 50%;
+}
+.article .title,
+.article .body {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.article .title img,
+.article .body img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+}
+.article .footer .page {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.box-title {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.box-title div {
+  position: sticky;
+  top: 0;
+}
+.box-title h1 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #F4F4F4;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+  background-image: url("/asset/background.svg");
+  color: #F4F4F4;
+}
+body main {
+  position: relative;
+  top: 120px;
+  display: flex;
+}
+body main .content-view {
+  display: flex;
+}
+body main .content-view .index {
+  flex-grow: 1;
+}
+body main .content-view .index ul {
+  margin-left: 2rem;
+  list-style-type: none;
+  display: flex;
+  flex-flow: column;
+}
+body main .content-view .index ul li {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-top: 2rem;
+}
+body main .content-view .index ul li a {
+  text-decoration: none;
+}
+body main .content-view .index ul li a:active {
+  text-decoration: none;
+  color: #F4F4F4;
+}
+body main .content-view .index ul li a:visited {
+  text-decoration: none;
+  color: #F4F4F4;
+}
+body main #nav {
+  display: block;
+  max-height: 5rem;
+  min-width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+body main #nav img {
+  display: inline-block;
+  width: 1.5rem;
+  margin-right: 1rem;
+  filter: invert(1);
+}
+
+/*# sourceMappingURL=indiceStyle.css.map */
