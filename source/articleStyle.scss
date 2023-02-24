@@ -1,0 +1,29 @@
+$backgound-dark: #262626;
+$backgound-light: #F4F4F4;
+$light-text: #F4F4F4;
+$dark-text: #262626;
+$secondary: #4B5563;
+.article {
+    flex-grow: 0;
+    max-width: 50%;
+
+    .title,
+    .body {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        img{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            width: 100%;
+            background-color: white;
+        }
+    }
+
+    .footer {
+        .page {
+            text-align: right;
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+$backgound-dark: #262626;
+$backgound-light: #F4F4F4;
+$light-text: #F4F4F4;
+$dark-text: #262626;
+$secondary: #4B5563;
+.box-title {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    div{
+        position: sticky;
+        top:0;
+    }
+    h1 {
+        font-size: 1.5rem;
+        border-bottom: 1px solid $light-text;
+    }
+}

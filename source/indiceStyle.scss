@@ -1,0 +1,50 @@
+@use "articleStyle.scss";
+@use "box-titleStyle.scss";
+
+$backgound-dark: #262626;
+$backgound-light: #F4F4F4;
+$light-text: #F4F4F4;
+$dark-text: #262626;
+$secondary: #4B5563;
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $backgound-dark;
+    background-image: url(/asset/background.svg);
+    color: $light-text;
+
+    main {
+        position: relative;
+        top: 120px;
+        display: flex;
+
+        .content-view {
+            display: flex;
+
+            
+
+            
+        }
+
+        #nav {
+            display: block;
+            max-height: 5rem;
+            min-width: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            img {
+                display: inline-block;
+                width: 1.5rem;
+                margin-right: 1rem;
+                filter: invert(1);
+            }
+        }
+    }
+}
